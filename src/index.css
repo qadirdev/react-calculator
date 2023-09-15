@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0e0d0d;
+  color: w;
+}
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 21px;
+  overflow: hidden;
+  box-shadow: 0 2px 63px #131313;
+}
+.display {
+  padding: 14px;
+  text-align: center;
+  background: #080025;
+  color: aliceblue;
+  font-size: 21px;
+}
+button{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 21px;
+    padding: 14px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    opacity: 0.9; 
+}
+.operators{
+    display: flex;
+}
+.operators button{
+    flex: 1 1 0%;
+    background: #16025c;
+}
+.digits{
+    display: flex;
+    flex-wrap: wrap;
+}
+.digits button{
+    flex: 1 1 33.3333%;
+    background: #080025;
+}
